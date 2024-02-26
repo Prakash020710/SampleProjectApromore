@@ -1,6 +1,6 @@
 # SampleProjectApromore
 This application exposes api to process enrolment for student.
-It have 3 GET apis to enrol student, get student and delete enrolment
+It have 3 apis to enrol student, get student and delete enrolment
 
 # Specifications
 This Micro service is developed using JDK 1.8, h2 (in memory) database, flyway migration, gradle, spring boot, jpa etc.
