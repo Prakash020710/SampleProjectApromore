@@ -1,9 +1,10 @@
 # SampleProjectApromore
 This application exposes api to process enrolment for student.
-It have 3 apis to enrol student, get student and delete enrolment
+It have 3 apis to enrol student, get student and delete enrolment.
+Post api will create a new record if student id is not passed and update if student id is passed.
 
 # Specifications
-This Micro service is developed using JDK 1.8, h2 (in memory) database, flyway migration, gradle, spring boot, jpa etc.
+This Micro service is developed using JDK 1.8, h2 (in memory) database, flyway migration, gradle, spring boot, jpa, jacoco etc.
 
 # Running locally
 Please clone the repo on your local and run below command.
@@ -18,7 +19,7 @@ Database can be accessed via [Path](http://localhost:8013/api/apm/h2-console/log
 
 Please note as its in memory database it will have data till server is running, post shutdown it will be no longer accessible
 
-To generate the swagger, you access it using [Path](http://localhost:8013/api/apm/v2/api-docs)
+To generate the swagger, you can access it using [Path](http://localhost:8013/api/apm/v2/api-docs)
 
 Jacoco reports are also genrated by build or running tests inside build directory.
 
