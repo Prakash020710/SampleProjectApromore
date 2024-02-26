@@ -1,6 +1,8 @@
 # SampleProjectApromore
 This application exposes api to process enrolment for student.
+
 It have 3 apis to enrol student, get student and delete enrolment.
+
 Post api will create a new record if student id is not passed and update if student id is passed.
 
 # Specifications
