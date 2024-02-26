@@ -1,0 +1,14 @@
+server:
+  port: 8013
+  servlet:
+    context-path: /api/apm/
+  tomcat:
+    accesslog:
+      enabled: true
+      pattern: '%h %l %u %t "%r" %s %b %D'
+      
+logging:
+  level:
+    .: TRACE
+    org.springframework: ERROR
+    org.hiberanate: ERROR
